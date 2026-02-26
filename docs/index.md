@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "婳的博客"
-  text: "部署网站"
+  text: "woshi"
   tagline: My great project tagline
   image:
     src: /hua.png
