@@ -1,0 +1,48 @@
+---
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
+
+hero:
+  name: "婳的博客"
+  text: "部署网站"
+  tagline: My great project tagline
+  image:
+    src: /hua.png
+    alt: 婳
+  actions:
+    - theme: brand
+      text: 个人网盘
+      link: /markdown-examples
+    - theme: brand
+      text: 临时文本
+      link: http://gx.wanliao.top
+
+features:
+  - title: C++笔记
+    details: 学习笔记
+    link: /C++笔记/常用函数
+  - title: Feature B
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Feature C
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+---
+
+
+
+
+---
+<!-- 网站底部备案信息（本地图片图标版） -->
+<div align="center" style="margin: 30px 0 15px; color: #666; font-size: 14px;">
+  <!-- ICP备案（本地图片图标） -->
+  <a href="https://beian.miit.gov.cn/" target="_blank" style="color: #666; text-decoration: none; display: inline-flex; align-items: center; margin: 0 8px;">
+    <img src="/ba.png" style="width: 16px; height: 16px; margin-right: 4px; vertical-align: middle;" alt="ICP备案图标">
+    赣ICP备2025056124号-1
+  </a>
+  <!-- 分隔符 -->
+  <span style="margin: 0 6px;">-</span>
+  <!-- 公安备案（本地图片图标） -->
+  <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=36050202000630" target="_blank" style="color: #666; text-decoration: none; display: inline-flex; align-items: center; margin: 0 8px;">
+    <img src="/ba.png" style="width: 16px; height: 16px; margin-right: 4px; vertical-align: middle;" alt="公安备案图标">
+    赣公网安备36050202000630号
+  </a>
+</div>

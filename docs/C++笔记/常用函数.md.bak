@@ -1,0 +1,109 @@
+# C++笔记
+
+## 课上写的
+
+### 1.常用
+
+```c++
+#include<bits/stdc++.h>//引入大部分库，不要经常用
+
+#include<iostream>
+#include<cmath>//数学库
+#include<string>//字符库
+#include<algorithm>//算法库
+using namespace std;
+
+//结构体
+struct su{
+	int yu,shu,yi;
+	int hao,sum;
+}j[N];
+
+int main() {
+
+	cout << "Hello world" << endl;
+    
+    printf("%.3lf", a); //如果a是浮点类型，那么这个输出表示保留3位小数输出
+
+	return 0;
+}
+```
+
+### 2.函数
+```c++
+#.size();//字符串长度
+
+#.push_back('b');//向末位添加一个字符
+
+#.pop_back();//移除末位单个字符
+
+#.toupper();//转大写    
+        a[i] = toupper(a[i]);//字符串a的第i个字符被赋值
+
+#.tolower();//转小写    
+        a[i] = tolowe(a[i]);
+
+#.insert();//插入       
+        a.insert(2,"word");//在下标为2的位置插入字符串word，也可以插入字符串b
+
+#.erase();//移除
+        a.erase(0,2);//在下标为0的位置开始删除2个字符
+
+#.substr();//截取子串
+        a.substr(0,2);//在下标为0的位置开始截取2个字符
+
+#.find();//寻找子串
+        a.find("word")//找到返回值为开头位置，找不到返回-1
+
+reverse();//反转字符串，需要算法类库
+        reverse(a.begin(),a.end())
+
+stoi()//字符串转int类
+        int b = stoi(a);
+
+to_string()//int转字符串
+        string a = to_string(b);
+
+sort()//给字符串排序，需要导入算法
+        sort(a.begin(), a.end());
+
+getline()//输入整行
+        getline(cin,a)
+
+max(),min()//最大值和最小值
+        int j = max(a,b);
+                max(a,max(b,max(c,d)))//多个值比大小
+
+sqrt()//开平方根
+        double b = sqrt(a);
+
+pow()//开n次方
+        int b = pow(a,7)；//b被赋值为a的7次方
+
+swap()//交换两个数的值
+        swap(a,b);
+
+sort()//排序
+        sort(j+1,j+n+1,abc);//从下标1开始到n+1，abc是自定义排序规则
+```
+
+### 3.自编函数
+## 1.判断素数
+```c++
+int su(int a)
+{
+	for(int i=2;i<=sqrt(a);i++)
+	{
+		if(a%i==0)
+		{
+			return 0;
+		}
+	}
+	return 1;
+} 
+```
+## 2.拆数字
+未完待续。。。。
+
+
+## 其他
