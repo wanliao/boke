@@ -30,12 +30,3 @@ features:
 
 
 
----
-<!-- 网站底部备案信息（本地图片图标版） -->
-<div align="center" style="margin: 30px 0 15px; color: #666; font-size: 14px;">
-  <!-- ICP备案（本地图片图标） -->
-  <a href="https://beian.miit.gov.cn/" target="_blank" style="color: #666; text-decoration: none; display: inline-flex; align-items: center; margin: 0 8px;">
-    <img src="/ba.png" style="width: 16px; height: 16px; margin-right: 4px; vertical-align: middle;" alt="ICP备案图标">
-    赣ICP备2025056124号-1
-  </a>
-</div>
