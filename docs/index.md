@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 个人网盘
-      link: http://gx.wanliao.top
+      link: http://wp.wanliao.top
     - theme: brand
       text: 共享文本
       link: http://gx.wanliao.top
