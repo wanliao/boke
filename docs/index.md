@@ -3,19 +3,26 @@
 layout: home
 
 hero:
-  name: "婳的博客"
-  text: "woshi"
-  tagline: My great project tagline
+  name: "婳"
+  tagline: 想把你变成代码，困在我的循环里
   image:
     src: /hua.png
     alt: 婳
   actions:
     - theme: brand
-      text: 个人网盘
+      text: 彩虹网盘
       link: http://wp.wanliao.top
     - theme: brand
-      text: 共享文本
+      text: 共享图文
       link: http://gx.wanliao.top
+
+    - theme: brand
+      text: 灵境Ai
+      link: http://ai.wanliao.top
+
+    - theme: brand
+      text: 张雪峰快跑
+      link: http://zxf.wanliao.top
 
 features:
   - title: C++笔记
