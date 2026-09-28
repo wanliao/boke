@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "婳-",
-  description: "网站",
+  description: "导航页",
   head:[['link',{rel: 'icon',href: '/wz.png'}],],
   locales: {
     root: {
@@ -22,9 +22,8 @@ export default defineConfig({
       {
         text: '目录',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'C++笔记', link: '/C++笔记/常用函数' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '游戏工具', link: '/游戏工具' },
+          { text: 'C++笔记', link: '/C++笔记/常用函数' }
         ]
       }
     ],
@@ -43,9 +42,10 @@ export default defineConfig({
       label: '页面导航',
       level: 'deep',
     },
-    lastUpdated: {
-      text: '最后更新于',
-    },
+    // lastUpdated 会调 git log 取提交时间，在某些环境会卡 EBUSY，先关掉
+    // lastUpdated: {
+    //   text: '最后更新于',
+    // },
     docFooter: {
       prev: '上一篇',
       next: '下一篇',
