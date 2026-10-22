@@ -1,0 +1,1 @@
+import{_ as a,o as r,c as t,ai as l}from"./chunks/framework.CaiDwmc7.js";const d=JSON.parse('{"title":"游戏工具","description":"","frontmatter":{},"headers":[],"relativePath":"游戏工具.md","filePath":"游戏工具.md"}'),n={name:"游戏工具.md"};function i(o,e,_,c,h,s){return r(),t("div",null,[...e[0]||(e[0]=[l("",6)])])}const f=a(n,[["render",i]]);export{d as __pageData,f as default};
