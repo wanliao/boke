@@ -1,12 +1,13 @@
-name: Build and publish dist
+name: Build check
+
+# 仅做构建校验：确认 main 分支能正常编译，不再向 dist 分支发布产物。
+# 实际部署走服务器上的 update.sh（git pull + npm run docs:build），
+# 或在本地 build 后手动上传 .vitepress/dist。
 
 on:
   push:
     branches: [main]
   workflow_dispatch:
-
-permissions:
-  contents: write
 
 jobs:
   build:
@@ -24,11 +25,3 @@ jobs:
 
       - name: Build VitePress site
         run: npm run docs:build
-
-      - name: Publish to dist branch
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./.vitepress/dist
-          publish_branch: dist
-          force_orphan: true
