@@ -3,3 +3,6 @@ node_modules/
 .vitepress/cache/
 .dsh-quarantine/
 *.exe
+
+# AI 工作区数据（本地记忆/临时文件，不纳入版本管理）
+.workbuddy-ai/
